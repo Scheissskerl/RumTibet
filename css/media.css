@@ -1,0 +1,915 @@
+@media(width < 1761px) {
+
+  /* blog travel */
+
+  .travel-blog__card {
+    flex-direction: column;
+  }
+
+  .travel-blog__card-img {
+    width: 100%;
+  }
+
+  .travel-blog__card-content {
+    min-height: 320px;
+  }
+
+}
+
+
+@media(width < 1716px) {
+
+  /* hero form */
+
+  .hero__form-wrap {
+    width: 935px;
+  }
+}
+
+
+@media(width < 1680px) {
+
+  /* hero form */
+
+  .hero__form-wrap {
+    width: 900px;
+  }
+
+  .hero__input {
+    width: 240px;
+  }
+
+  /* photo report */
+
+  .photo-report__poto--ind-0 {
+    order: 0;
+  }
+
+  .photo-report__poto--ind-1 {
+    order: 1;
+  }
+
+  .photo-report__poto--ind-2 {
+    order: 2;
+  }
+
+  .photo-report__poto--ind-3 {
+    order: 3;
+  }
+
+  .photo-report__poto--ind-4 {
+    order: 4;
+  }
+
+  .photo-report__poto--ind-5 {
+    order: 5;
+  }
+}
+
+
+@media(width < 1630px) {
+
+  .container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  /* hero form */
+
+  .hero__form-wrap {
+    width: 900px;
+  }
+
+  /* best programs */
+
+  .best-programs__img--1 {
+    background-image: url(../img/best-programs-background-1-1630.png);
+  }
+
+  .best-programs__img--2 {
+    background-image: url(../img/best-programs-background-2-1630.png);
+  }
+
+  .best-programs__img--3 {
+    background-image: url(../img/best-programs-background-3-1630.png);
+  }
+
+  .best-programs__img--4 {
+    background-image: url(../img/best-programs-background-4-1630.png);
+  }
+}
+
+
+@media(width < 1600px) {
+
+  /* about treep */
+
+  .about-trip__slider-btn--prev {
+    left: 4%;
+  }
+
+  .about-trip__slider-btn--next {
+    right: 4%;
+  }
+
+  /* popular destination */
+
+  .popular-destinations__card-title {
+    font-size: 18px;
+  }
+
+  .popular-destinations__card-price {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  .popular-destinations__card-description {
+    font-size: 14px;
+  }
+}
+
+
+@media(width < 1435px) {
+
+  /* hero form */
+
+  .hero__form {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .hero__form-wrap {
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  /* about-trip slider */
+
+  .about-trip__slid {
+    justify-content: space-around;
+  }
+
+  .swiper-button-prev {
+    top: 117%;
+    left: 2%;
+  }
+
+  .swiper-button-next {
+    top: 117%;
+    right: 2%;
+  }
+
+  /* best programs */
+
+  .best-programs__img--1 {
+    background-image: url(../img/best-programs-background-1-1435.png);
+  }
+
+  .best-programs__img--2 {
+    background-image: url(../img/best-programs-background-2-1435.png);
+  }
+
+  .best-programs__img--3 {
+    background-image: url(../img/best-programs-background-3-1435.png);
+  }
+
+  .best-programs__img--4 {
+    background-image: url(../img/best-programs-background-4-1435.png);
+  }
+}
+
+@media(width < 1400px) {
+
+  /* popular destination */
+
+  .popular-destinations__card-content {
+    padding: 20px 15px;
+  }
+
+  .popular-destinations__card-title {
+    font-size: 18px;
+  }
+
+  .popular-destinations__card-price {
+    font-size: 14px;
+  }
+
+  .popular-destinations__card-description {
+    font-size: 14px;
+  }
+}
+
+@media(width < 1370px) {
+
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* about-trip slider */
+
+  .about-trip__slid {
+    justify-content: space-evenly;
+  }
+
+  .about-trip__img {
+    max-width: 440px;
+  }
+
+  .about-trip__slider-btn--prev {
+    top: 110%;
+    left: 0;
+  }
+
+  .about-trip__slider-btn--next {
+    top: 110%;
+    right: 0;
+  }
+
+  /* best programs */
+
+  .best-programs__content {
+    max-width: 100%;
+  }
+
+  .best-programs__img-list {
+    display: none;
+  }
+
+  .best-programs__content-btn {
+    margin-inline: auto;
+  }
+
+  /* subscription */
+
+  .subscription {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .subscription__left-text {
+    font-size: 16px;
+  }
+
+  .subscription__left-title {
+    font-size: 24px;
+  }
+}
+
+@media(width < 1230px) {
+
+  /* subscript */
+
+  .subscription {
+    width: 1080px;
+  }
+}
+
+@media(width < 1150px) {
+
+  /* header */
+
+  .header__nav {
+    margin-right: 0;
+  }
+
+  .header__btn {
+    display: none;
+  }
+
+  /* about-trip slider */
+
+  .about-trip__text {
+    font-size: 20px;
+  }
+
+  .about-trip__title {
+    font-size: 25px;
+  }
+
+  .about-trip__description {
+    font-size: 16px;
+  }
+
+  .swiper-button-prev {
+    top: 115%;
+    left: 1%;
+  }
+
+  .swiper-button-next {
+    top: 115%;
+    right: 1%;
+  }
+
+  /* footer */
+
+  .footer-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer__left-description {
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+
+  /* subscript */
+
+  .subscription {
+    flex-direction: column;
+    width: 690px;
+  }
+
+  .subscription__left-content {
+    margin-bottom: 20px;
+  }
+
+  /* popular destination */
+
+  .popular-destinations__card-content {
+    bottom: -73%;
+    width: 100%;
+  }
+}
+
+
+@media(width < 1081px) {
+
+  /* about-trip slider */
+
+  .about-trip__slider {
+    margin-bottom: 10px;
+  }
+
+  .about-trip__slid {
+    flex-direction: column;
+    justify-content: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .about-trip__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .about-trip__img--1 {
+    display: none;
+  }
+
+  .about-trip__img--2 {
+    position: static;
+    margin-inline: auto;
+    max-width: 100%;
+  }
+
+  .about-trip__content {
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    min-height: 330px;
+    max-width: 100%;
+  }
+
+  .about-trip__title {
+    margin-bottom: 0;
+  }
+
+  .about-trip__description {
+    padding-top: 10px;
+  }
+
+  /* blog travel */
+
+  .travel-blog__card-content {
+    min-height: 360px;
+  }
+
+  /* popular destination */
+
+  .popular-destinations__list {
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .popular-destinations__list::-webkit-scrollbar {
+    height: 1px;
+  }
+
+  .popular-destinations__list::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .popular-destinations__list::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+
+  .popular-destinations__card {
+    min-width: 314px;
+  }
+}
+
+@media(width < 1026px) {
+
+  /* hero */
+
+  .hero-container {
+    padding-top: 220px;
+    padding-bottom: 220px;
+  }
+
+  /* hero form */
+
+  .hero__form {
+    justify-content: flex-start;
+  }
+
+  .hero__form-wrap {
+    display: none;
+  }
+
+  /* about trip */
+
+  .swiper-button-prev {
+    top: 86%;
+    left: 0.5%;
+  }
+
+  .swiper-button-next {
+    top: 86%;
+    right: 0.5%;
+  }
+}
+
+
+@media(width < 980px) {
+
+  /* photo report */
+
+  .photo-report__list {
+    flex-wrap: nowrap;
+    justify-content: normal;
+    gap: 7px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .photo-report__list::-webkit-scrollbar {
+    height: 1px;
+  }
+
+  .photo-report__list::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .photo-report__list::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+
+  .photo-report__btn {
+    height: 45px;
+    width: 200px;
+    font-size: 14px;
+  }
+
+  /* popular destination */
+
+  .popular-destinations__card {
+    min-width: 320px;
+    min-height: 360px;
+  }
+
+  .popular-destinations__card-content {
+    bottom: -70%;
+  }
+}
+
+@media(width < 950px) {
+
+  /* header */
+
+  .header__nav-menu {
+    display: none;
+  }
+
+  .open {
+    display: flex;
+  }
+
+  .burger-menu {
+    position: absolute;
+    flex-direction: column;
+    top: 116px;
+    right: 0;
+    padding: 50px 20px;
+    gap: 27px;
+    height: auto;
+    width: 280px;
+    overflow-y: auto;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #FDFDFD;
+    background-color: var(--text-color);
+    animation: burgerAnimation 0.5s ease-in-out;
+  }
+
+  .header__burger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 30px;
+    width: 30px;
+    z-index: 5;
+  }
+
+  .header__burger::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--white);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .header__burger::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--white);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .header__burger-line {
+    position: absolute;
+    right: 0;
+    height: 2px;
+    width: 70%;
+    background-color: var(--white);
+    transform: scale(1);
+    transition: transform 0.15s ease-in-out;
+  }
+
+  .header__burger.active .header__burger-line {
+    transform: scale(0);
+  }
+
+  .header__burger.active:before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+  }
+
+  .header__burger.active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+  }
+
+  @keyframes burgerAnimation {
+    0% {
+      right: -100%;
+    }
+
+    100% {
+      right: 0;
+    }
+  }
+
+  /* about-trip slider */
+
+  .about-trip__content {
+    min-height: 280px;
+  }
+
+  .about-trip__text {
+    font-size: 16px;
+  }
+
+  .about-trip__title {
+    font-size: 20px;
+  }
+
+  .about-trip__description {
+    font-size: 14px;
+  }
+
+  /* about trip */
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+
+  /* blog travel */
+
+  .travel-blog__cards {
+    --offsets: 0;
+  }
+
+  .travel-blog__card-content {
+    min-height: 240px;
+  }
+
+  .travel-blog__card-description {
+    padding-bottom: 20px;
+  }
+}
+
+
+@media(width < 830px) {
+
+  /* about-trip slider */
+
+  .about-trip-container {
+    padding-bottom: 20px;
+  }
+
+  .about-trip__slider {
+    position: relative;
+  }
+
+  .about-trip__slider-btn--prev,
+  .about-trip__slider-btn--next {
+    position: absolute;
+    opacity: 0.7;
+  }
+
+  .about-trip__slider-btn--prev {
+    top: 25%;
+    left: 0;
+  }
+
+  .about-trip__slider-btn--next {
+    top: 25%;
+    right: 0;
+  }
+}
+
+
+@media(width < 770px) {
+
+  /* hero */
+
+  .main-title {
+    font-size: 40px;
+  }
+
+  /* photo report */
+
+  .photo-report-container {
+    padding-bottom: 70px;
+  }
+
+  /* subscript */
+
+  .subscription {
+    position: static;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    max-width: 520px;
+    transform: none;
+  }
+
+  .subscription__left-text {
+    font-size: 14px;
+  }
+
+  .subscription__left-title {
+    font-size: 18px;
+  }
+
+  .subscription__form-wrap {
+    flex-direction: column;
+  }
+
+  .subscription__form-link {
+    font-size: 10px;
+  }
+
+  /* footer bottom */
+
+  .footer__bottom-text,
+  .footer__bottom-link {
+    font-size: 12px;
+  }
+}
+
+
+@media(width < 630px) {
+
+  /* hero */
+
+  .hero-container {
+    padding-top: 300px;
+    padding-bottom: 100px;
+  }
+
+  .main-title {
+    font-size: 30px;
+  }
+
+
+  /* best programs */
+
+  .best-programs__content-btn {
+    width: 210px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  /* blog travel */
+
+  .travel-blog__btn {
+    width: 220px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+}
+
+
+@media(width < 550px) {
+
+  /* best programs */
+
+  .best-programs__item-img {
+    display: none;
+  }
+
+  /* footer bottom */
+
+  .footer__bottom-text,
+  .footer__bottom-link {
+    font-size: 9px;
+  }
+
+  /* subscript */
+
+  .subscription {
+    width: 360px;
+  }
+
+  /* popular destination */
+
+  .popular-destinations__card-btn {
+    width: 155px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .popular-destinations__btn {
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+
+@media(width < 500px) {
+
+  /* hero */
+
+  .hero-container {
+    padding-top: 201px;
+    padding-bottom: 60px;
+  }
+
+  .main-title {
+    font-size: 18px;
+  }
+
+  /* hero form */
+
+  .hero__form-btn {
+    padding: 18px 36px;
+    width: 190px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  /* about trip */
+
+  .about-trip__text {
+    font-size: 14px;
+  }
+
+  .about-trip__title {
+    font-size: 18px;
+  }
+
+  .about-trip__btn {
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  /* best programs */
+
+  .best-programs__content-text {
+    font-size: 14px;
+  }
+
+  .best-programs__content-title {
+    font-size: 18px;
+  }
+
+  .best-programs__content-description {
+    font-size: 14px;
+  }
+
+  .best-programs__item-title {
+    font-size: 16px;
+  }
+
+  /* travel blog */
+
+  .travel-blog__text {
+    font-size: 14px;
+  }
+
+  .travel-blog__title {
+    font-size: 18px;
+  }
+
+  .travel-blog__card-title {
+    font-size: 16px;
+  }
+
+  .travel-blog__card-description {
+    font-size: 14px;
+  }
+
+  .travel-blog__btn {
+    width: 180px;
+    height: 45px;
+  }
+
+  /* photo report */
+
+  .photo-report__text {
+    font-size: 14px;
+  }
+
+  .photo-report__title {
+    font-size: 18px;
+  }
+
+  /* footer bottom */
+
+  .footer__bottom-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* popular destination */
+
+  .popular-destinations__card {
+    min-width: 300px;
+  }
+}
+
+
+@media(width < 470px) {
+
+  /* subscript */
+
+  .subscription {
+    width: 310px;
+  }
+
+  .subscription__form-input {
+    width: 240px;
+  }
+}
+
+
+
+@media(width < 380px) {
+
+  /* tavel blog */
+
+  .travel-blog__card-date,
+  .travel-blog__card-link {
+    font-size: 12px;
+  }
+
+  /* footer */
+
+  .footer__left-wrap-links {
+    flex-direction: column;
+  }
+}
